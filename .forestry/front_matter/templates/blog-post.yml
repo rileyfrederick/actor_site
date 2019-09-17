@@ -1,4 +1,29 @@
 ---
 label: Blog Post
 hide_body: true
-fields: []
+fields:
+- name: title__
+  type: text
+  config:
+    required: false
+  label: 'Title: '
+  description: Title goes here
+- name: date
+  type: datetime
+  label: Date
+  description: Date goes here
+  config:
+    required: false
+    date_format: 
+    time_format: 
+    display_utc: false
+- name: text_field
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Text field
+  description: Text goes here
