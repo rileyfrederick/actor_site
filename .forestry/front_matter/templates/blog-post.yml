@@ -27,5 +27,3 @@ fields:
       format: markdown
   label: Text field
   description: Text goes here
-pages:
-- _posts/this is a test.md
